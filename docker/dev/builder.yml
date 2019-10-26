@@ -1,0 +1,29 @@
+version: '2'
+
+services:
+
+  base:
+    image: node:12.13.0
+    container_name: console-base
+    volumes:
+      - ${PWD}/app:/app
+    working_dir: /app
+
+  install:
+    container_name: console-install
+    extends:
+      service: base
+    command: bash -c "npm install && yarn global add @vue/cli@3.12.1 && yarn global add @vue/cli-service-global@3.12.1"
+
+  build:
+    container_name: console-build
+    extends:
+      service: base
+    command:
+      - npm run build
+
+  create-bundles:
+    container_name: console-bundler
+    extends:
+      service: base
+    command: npm run create-bundles
