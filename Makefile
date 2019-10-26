@@ -1,11 +1,17 @@
 VERSION = $(shell cat VERSION)
 
-container:
-	docker build -t bluest-eel/$(VERSION) .
+default: container
 
-run:
-	docker run -t bluest-eel/$(VERSION)
+up:
+	@VERSION=$(VERSION) docker-compose -f ./docker/dev/compose.yml up
+
+down:
+	@VERSION=$(VERSION) docker-compose -f ./docker/dev/compose.yml down
+
+container-run: container run
 
 bash:
-	docker run -t bluest-eel/$(VERSION) bash
+	@docker run -it bluest-eel/$(VERSION) bash
+
+bash-run: bash run
 
