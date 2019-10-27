@@ -12,7 +12,7 @@
                     <b-dropdown-item>{{ $t('pages.another-action') }}</b-dropdown-item>
                 </b-dropdown>
             </div>
-            <piaf-breadcrumb />
+            <beap-breadcrumb />
             <div class="separator mb-5"></div>
         </b-colxx>
     </b-row>

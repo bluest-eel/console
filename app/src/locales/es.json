@@ -1,6 +1,6 @@
 {
   "general": {
-    "copyright": "Piaf Vue © Todos los derechos reservados."
+    "copyright": "beap Vue © Todos los derechos reservados."
   },
   "user": {
     "login-title": "Iniciar sesión",
@@ -144,7 +144,7 @@
     "files": "Archivos",
     "pending-for-print": "Pendiente para imprimir",
     "logs": "Troncos",
-    "gogo": "PIAF",
+    "gogo": "beap",
     "magic-is-in-the-details": "LA MAGIA ESTA EN LOS DETALLES",
     "yes-it-is-indeed": "¡Si es verdad!",
     "advanced-search": "Búsqueda Avanzada",
@@ -153,7 +153,7 @@
     "keyword": "Palabra Clave",
     "search": "Búsqueda",
     "top-rated-items": "Artículos Mejores Valorados",
-    "piaf": "PIAF"
+    "beap": "beap"
   },
   "pages": {
     "add-new": "AGREGAR NUEVO",

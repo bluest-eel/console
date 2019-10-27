@@ -41,7 +41,7 @@
                         </template>
                     </b-modal>
                 </div>
-                <piaf-breadcrumb />
+                <beap-breadcrumb />
                 <div class="mb-2 mt-2">
                     <b-button variant="empty" class="pt-0 pl-0 d-inline-block d-md-none" v-b-toggle.displayOptions>
                         {{ $t('pages.display-options') }}

@@ -1,6 +1,6 @@
 <template>
-<div class="piaf-rater" key="1">
-    <div class="piaf-rater-star " v-for="(r,index) in ratings" :key="index" @click="set(r)" @mouseover="star_over(r)" @mouseout="star_out" :class="{ 'is-active': ((value >= r) && value != null), 'is-disabled': disabled, 'will-be-active':(onMouseOver && tempValue>=r)?true:false }"></div>
+<div class="beap-rater" key="1">
+    <div class="beap-rater-star " v-for="(r,index) in ratings" :key="index" @click="set(r)" @mouseover="star_over(r)" @mouseout="star_out" :class="{ 'is-active': ((value >= r) && value != null), 'is-disabled': disabled, 'will-be-active':(onMouseOver && tempValue>=r)?true:false }"></div>
 </div>
 </template>
 

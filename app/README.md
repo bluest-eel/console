@@ -1,4 +1,4 @@
-# piaf-vue
+# beap-vue
 
 ## Project setup
 ```

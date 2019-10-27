@@ -1,6 +1,6 @@
 {
   "general": {
-    "copyright": "Piaf Vue © 2018 All Rights Reserved."
+    "copyright": "beap Vue © 2018 All Rights Reserved."
   },
   "user": {
     "login-title": "Login",
@@ -144,7 +144,7 @@
     "files": "Files",
     "pending-for-print": "Pending for print",
     "logs": "Logs",
-    "piaf": "PIAF",
+    "beap": "beap",
     "magic-is-in-the-details": "MAGIC IS IN THE DETAILS",
     "yes-it-is-indeed": "Yes, it is indeed!",
     "advanced-search": "Advanced Search",

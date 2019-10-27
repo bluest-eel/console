@@ -42,7 +42,7 @@ const i18n = new VueI18n({
 })
 
 Vue.use(Notifications)
-Vue.component('piaf-breadcrumb', Breadcrumb)
+Vue.component('beap-breadcrumb', Breadcrumb)
 Vue.component('b-refresh-button', RefreshButton)
 Vue.component('b-colxx', Colxx)
 Vue.component('vue-perfect-scrollbar', vuePerfectScrollbar)
