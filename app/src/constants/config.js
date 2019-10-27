@@ -8,10 +8,21 @@ export const menuHiddenBreakpoint = 768
 
 export const defaultLocale = 'en'
 export const defaultDirection = 'ltr'
-export const localeOptions = [
-  { id: 'en', name: 'English LTR', direction: 'ltr' },
-  { id: 'es', name: 'Español', direction: 'ltr' },
-  { id: 'enrtl', name: 'English RTL', direction: 'rtl' }
+export const localeOptions = [{
+    id: 'en',
+    name: 'English LTR',
+    direction: 'ltr'
+  },
+  {
+    id: 'es',
+    name: 'Español',
+    direction: 'ltr'
+  },
+  {
+    id: 'enrtl',
+    name: 'English RTL',
+    direction: 'rtl'
+  }
 ]
 
 export const firebaseConfig = {
@@ -34,7 +45,7 @@ export const currentUser = {
 
 export const isDemo = true
 export const themeRadiusStorageKey = 'theme_radius'
-export const defaultColor = 'dark.green'
+export const defaultColor = 'dark.blue'
 export const colors = [
   'light.purple',
   'dark.purple',
