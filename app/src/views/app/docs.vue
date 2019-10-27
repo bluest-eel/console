@@ -2,7 +2,7 @@
   <div>
     <b-row>
       <b-colxx xxs="12">
-        <beap-breadcrumb :heading="$t('menu.docs')" />
+        <beap-breadcrumb :heading="$t('menu.label')" />
         <div class="separator mb-5"></div>
       </b-colxx>
     </b-row>

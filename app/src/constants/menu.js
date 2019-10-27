@@ -1,4 +1,94 @@
 const data = [{
+    id: "docs",
+    icon: "iconsminds-library",
+    label: "Bluest Eel Docs",
+    to: "/app/bluest-eel/docs",
+    subs: [{
+        id: "pages-authorization",
+        label: "Getting Started",
+        to: "/user",
+        subs: [{
+            icon: "simple-icon-user-following",
+            label: "menu.login",
+            to: "/user/login",
+            newWindow: true
+          },
+          {
+            icon: "simple-icon-user-follow",
+            label: "menu.register",
+            to: "/user/register",
+            newWindow: true
+          },
+          {
+            icon: "simple-icon-user-following",
+            label: "menu.forgot-password",
+            to: "/user/forgot-password",
+            newWindow: true
+          }
+        ]
+      },
+      {
+        id: "pages-product",
+        label: "Running Locally",
+        to: "/app/bluest-eel/docs/product",
+        subs: [{
+            icon: "simple-icon-credit-card",
+            label: "menu.data-list",
+            to: "/app/bluest-eel/docs/product/data-list"
+          },
+          {
+            icon: "simple-icon-list",
+            label: "menu.thumb-list",
+            to: "/app/bluest-eel/docs/product/thumb-list"
+          },
+          {
+            icon: "simple-icon-grid",
+            label: "menu.image-list",
+            to: "/app/bluest-eel/docs/product/image-list"
+          },
+          {
+            icon: "simple-icon-picture",
+            label: "menu.details",
+            to: "/app/bluest-eel/docs/product/details"
+          },
+          {
+            icon: "simple-icon-book-open",
+            label: "menu.details-alt",
+            to: "/app/bluest-eel/docs/product/details-alt"
+          },
+        ]
+      },
+      {
+        id: "pages-miscellaneous",
+        label: "Distributed Deployment",
+        to: "/app/bluest-eel/docs/miscellaneous",
+        subs: [{
+            icon: "simple-icon-magnifier",
+            label: "menu.search",
+            to: "/app/bluest-eel/docs/miscellaneous/search"
+          },
+          {
+            icon: "simple-icon-envelope-open",
+            label: "menu.mailing",
+            to: "/app/bluest-eel/docs/miscellaneous/mailing"
+          },
+          {
+            icon: "simple-icon-bag",
+            label: "menu.invoice",
+            to: "/app/bluest-eel/docs/miscellaneous/invoice"
+          },
+
+          {
+            icon: "simple-icon-exclamation",
+            label: "menu.error",
+            to: "/error",
+            newWindow: true
+          }
+        ]
+      },
+    ]
+  },
+  {
     id: "dashboards",
     icon: "iconsminds-shop-4",
     label: "menu.dashboards",
@@ -85,62 +175,11 @@ const data = [{
           },
         ]
       },
-      // {
-      //     id: "pages-profile",
-      //     label: "menu.profile",
-      //     to: "/app/pages/profile",
-      //     subs: [{
-      //         icon: "simple-icon-share",
-      //         label: "menu.social",
-      //         to: "/app/pages/profile/social"
-      //     },
-      //     {
-      //         icon: "simple-icon-link",
-      //         label: "menu.portfolio",
-      //         to: "/app/pages/profile/portfolio"
-      //     },
-
-      //     ]
-      // },
-      // {
-      //     id: "pages-blog",
-      //     label: "menu.blog",
-      //     to: "/app/pages/blog",
-      //     subs: [{
-      //         icon: "simple-icon-share",
-      //         label: "menu.blog-list",
-      //         to: "/app/pages/blog/blog-list"
-      //     },
-      //     {
-      //         icon: "simple-icon-link",
-      //         label: "menu.blog-detail",
-      //         to: "/app/pages/blog/blog-detail"
-      //     },
-
-      //     ]
-      //},
       {
         id: "pages-miscellaneous",
         label: "menu.miscellaneous",
         to: "/app/pages/miscellaneous",
-        subs: [
-          // {
-          //     icon: "simple-icon-question",
-          //     label: "menu.faq",
-          //     to: "/app/pages/miscellaneous/faq"
-          // },
-          // {
-          //     icon: "simple-icon-graduation",
-          //     label: "menu.knowledge-base",
-          //     to: "/app/pages/miscellaneous/knowledge-base"
-          // },
-
-          // {
-          //     icon: "simple-icon-diamond",
-          //     label: "menu.prices",
-          //     to: "/app/pages/miscellaneous/prices"
-          // },
-          {
+        subs: [{
             icon: "simple-icon-magnifier",
             label: "menu.search",
             to: "/app/pages/miscellaneous/search"
@@ -352,12 +391,6 @@ const data = [{
     icon: "iconsminds-bucket",
     label: "menu.blank-page",
     to: "/app/blank-page"
-  },
-  {
-    id: "docs",
-    icon: "iconsminds-library",
-    label: "menu.docs",
-    to: "/app/docs"
   }
 ];
 export default data;
