@@ -15,7 +15,7 @@
                 <tbody>
                     <tr>
                         <td align="left" valign="center" style="padding-bottom:40px;border-top:0;height:100% !important;width:100% !important;">
-                            <img src="https://coloredstrategies.com/mailing/piaf.png" />
+                            <img src="/assets/img/beap.png" />
                         </td>
                         <td align="right" valign="center" style="padding-bottom:40px;border-top:0;height:100% !important;width:100% !important;">
                             <span style="color: #8f8f8f; font-weight: normal; line-height: 2; font-size: 14px;">02.02.2019</span>
@@ -85,7 +85,7 @@
                 <tbody>
                     <tr>
                         <td align="left" valign="center" style="padding-bottom:40px;border-top:0;height:100% !important;width:100% !important;">
-                            <img src="https://coloredstrategies.com/mailing/piaf.png" />
+                            <img src="/assets/img/beap.png" />
                         </td>
                         <td align="right" valign="center" style="padding-bottom:40px;border-top:0;height:100% !important;width:100% !important;">
                             <span style="color: #8f8f8f; font-weight: normal; line-height: 2; font-size: 14px;">02.02.2019</span>
@@ -232,7 +232,7 @@
                 <tbody>
                     <tr>
                         <td align="left" valign="center" style="padding-bottom:40px;border-top:0;height:100% !important;width:100% !important;">
-                            <img src="https://coloredstrategies.com/mailing/piaf.png" />
+                            <img src="/assets/img/beap.png" />
                         </td>
                         <td align="right" valign="center" style="padding-bottom:40px;border-top:0;height:100% !important;width:100% !important;">
                             <span style="color: #8f8f8f; font-weight: normal; line-height: 2; font-size: 14px;">02.02.2019</span>
