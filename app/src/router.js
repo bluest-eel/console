@@ -7,9 +7,68 @@ Vue.use(Router)
 const routes = [{
     path: '/',
     component: () => import( /* webpackChunkName: "app" */ './views/app'),
-    redirect: '/app/dashboards',
+    redirect: '/app/docs',
     beforeEnter: AuthRequired,
     children: [{
+        path: 'app/docs',
+        component: () => import( /* webpackChunkName: "blank-page" */ './views/app/docs'),
+        children: [{
+            path: 'getting-started',
+            component: () => import( /* webpackChunkName : "menu-levels" */ './views/app/docs/getting-started'),
+            redirect: '/app/docs/getting-started/third-level-1',
+            children: [{
+                path: 'third-level-1',
+                component: () => import( /* webpackChunkName: "menu-levels" */ './views/app/docs/getting-started/Third-level-1')
+              },
+              {
+                path: 'third-level-2',
+                component: () => import( /* webpackChunkName: "menu-levels" */ './views/app/docs/getting-started/Third-level-2')
+              },
+              {
+                path: 'third-level-3',
+                component: () => import( /* webpackChunkName: "menu-levels" */ './views/app/docs/getting-started/Third-level-3')
+              },
+            ]
+          },
+          {
+            path: 'running-locally',
+            component: () => import( /* webpackChunkName : "menu-levels" */ './views/app/docs/running-locally'),
+            redirect: '/app/docs/running-locally/third-level-1',
+            children: [{
+                path: 'third-level-1',
+                component: () => import( /* webpackChunkName: "menu-levels" */ './views/app/docs/running-locally/Third-level-1')
+              },
+              {
+                path: 'third-level-2',
+                component: () => import( /* webpackChunkName: "menu-levels" */ './views/app/docs/running-locally/Third-level-2')
+              },
+              {
+                path: 'third-level-3',
+                component: () => import( /* webpackChunkName: "menu-levels" */ './views/app/docs/running-locally/Third-level-3')
+              },
+            ]
+          },
+          {
+            path: 'distributed-deployment',
+            component: () => import( /* webpackChunkName : "menu-levels" */ './views/app/docs/distributed-deployment'),
+            redirect: '/app/docs/distributed-deployment/third-level-1',
+            children: [{
+                path: 'third-level-1',
+                component: () => import( /* webpackChunkName: "menu-levels" */ './views/app/docs/distributed-deployment/Third-level-1')
+              },
+              {
+                path: 'third-level-2',
+                component: () => import( /* webpackChunkName: "menu-levels" */ './views/app/docs/distributed-deployment/Third-level-2')
+              },
+              {
+                path: 'third-level-3',
+                component: () => import( /* webpackChunkName: "menu-levels" */ './views/app/docs/distributed-deployment/Third-level-3')
+              },
+            ]
+          }
+        ]
+      },
+      {
         path: 'app/dashboards',
         component: () => import( /* webpackChunkName: "dashboards" */ './views/app/dashboards'),
         redirect: '/app/dashboards/default',
@@ -205,7 +264,7 @@ const routes = [{
       {
         path: 'app/menu',
         component: () => import( /* webpackChunkName: "menu" */ './views/app/menu'),
-        redirect: '/app/menu/types',
+        redirect: '/app/menu/levels/third-level-1',
         children: [{
           path: 'levels',
           component: () => import( /* webpackChunkName : "menu-levels" */ './views/app/menu/levels'),
@@ -228,10 +287,6 @@ const routes = [{
       {
         path: 'app/blank-page',
         component: () => import( /* webpackChunkName: "blank-page" */ './views/app/blank-page')
-      },
-      {
-        path: 'app/docs',
-        component: () => import( /* webpackChunkName: "blank-page" */ './views/app/docs')
       }
     ]
   },

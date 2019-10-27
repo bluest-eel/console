@@ -1,91 +1,62 @@
 const data = [{
     id: "docs",
     icon: "iconsminds-library",
-    label: "Bluest Eel Docs",
-    to: "/app/bluest-eel/docs",
+    label: "menu.docs",
+    to: "/app/docs",
     subs: [{
-        id: "pages-authorization",
-        label: "Getting Started",
-        to: "/user",
+        id: "docs-getting-started",
+        label: "menu.docs-getting-started",
+        to: "/app/docs/getting-started",
         subs: [{
-            icon: "simple-icon-user-following",
-            label: "menu.login",
-            to: "/user/login",
-            newWindow: true
+            label: "menu.third-level-1",
+            to: "/app/docs/getting-started/third-level-1"
           },
           {
-            icon: "simple-icon-user-follow",
-            label: "menu.register",
-            to: "/user/register",
-            newWindow: true
+            label: "menu.third-level-2",
+            to: "/app/docs/getting-started/third-level-2"
           },
           {
-            icon: "simple-icon-user-following",
-            label: "menu.forgot-password",
-            to: "/user/forgot-password",
-            newWindow: true
+            label: "menu.third-level-3",
+            to: "/app/docs/getting-started/third-level-3"
           }
         ]
       },
       {
-        id: "pages-product",
-        label: "Running Locally",
-        to: "/app/bluest-eel/docs/product",
+        id: "docs-running-locally",
+        label: "menu.docs-running-locally",
+        to: "/app/docs/running-locally",
         subs: [{
-            icon: "simple-icon-credit-card",
-            label: "menu.data-list",
-            to: "/app/bluest-eel/docs/product/data-list"
+            label: "menu.third-level-1",
+            to: "/app/docs/running-locally/third-level-1"
           },
           {
-            icon: "simple-icon-list",
-            label: "menu.thumb-list",
-            to: "/app/bluest-eel/docs/product/thumb-list"
+            label: "menu.third-level-2",
+            to: "/app/docs/running-locally/third-level-2"
           },
           {
-            icon: "simple-icon-grid",
-            label: "menu.image-list",
-            to: "/app/bluest-eel/docs/product/image-list"
-          },
-          {
-            icon: "simple-icon-picture",
-            label: "menu.details",
-            to: "/app/bluest-eel/docs/product/details"
-          },
-          {
-            icon: "simple-icon-book-open",
-            label: "menu.details-alt",
-            to: "/app/bluest-eel/docs/product/details-alt"
-          },
-        ]
-      },
-      {
-        id: "pages-miscellaneous",
-        label: "Distributed Deployment",
-        to: "/app/bluest-eel/docs/miscellaneous",
-        subs: [{
-            icon: "simple-icon-magnifier",
-            label: "menu.search",
-            to: "/app/bluest-eel/docs/miscellaneous/search"
-          },
-          {
-            icon: "simple-icon-envelope-open",
-            label: "menu.mailing",
-            to: "/app/bluest-eel/docs/miscellaneous/mailing"
-          },
-          {
-            icon: "simple-icon-bag",
-            label: "menu.invoice",
-            to: "/app/bluest-eel/docs/miscellaneous/invoice"
-          },
-
-          {
-            icon: "simple-icon-exclamation",
-            label: "menu.error",
-            to: "/error",
-            newWindow: true
+            label: "menu.third-level-3",
+            to: "/app/docs/running-locally/third-level-3"
           }
         ]
       },
+      {
+        id: "docs-distributed-deployment",
+        label: "menu.docs-distributed-deployment",
+        to: "/app/docs/distributed-deployment",
+        subs: [{
+            label: "menu.third-level-1",
+            to: "/app/docs/distributed-deployment/third-level-1"
+          },
+          {
+            label: "menu.third-level-2",
+            to: "/app/docs/distributed-deployment/third-level-2"
+          },
+          {
+            label: "menu.third-level-3",
+            to: "/app/docs/distributed-deployment/third-level-3"
+          }
+        ]
+      }
     ]
   },
   {

@@ -18,6 +18,10 @@
   },
   "menu": {
     "app": "Home",
+    "docs": "Bluest Eel Docs",
+    "docs-getting-started": "Getting Started",
+    "docs-running-locally": "Running Locally",
+    "docs-distributed-deployment": "Distributed Deployment",
     "dashboards": "Dashboards",
     "default": "Default",
     "analytics": "Analytics",
@@ -77,7 +81,6 @@
     "careers": "Careers",
     "confirmation": "Confirmation",
     "contact": "Contact",
-    "docs": "Docs",
     "features": "Features",
     "prices": "Prices",
     "videos": "Videos",
@@ -213,8 +216,8 @@
     "price.245Support": "24/5 Support",
     "price.247Support": "24/7 Support",
     "price.useractionsauditlog": "User actions audit log",
-    "prices.featurecomparison" : "Feature Comparison",
-    "prices.pricecomparison" : "Price Comparison"
+    "prices.featurecomparison": "Feature Comparison",
+    "prices.pricecomparison": "Price Comparison"
   },
   "chat": {
     "messages": "Messages",
